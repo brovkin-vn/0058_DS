@@ -10,7 +10,7 @@ df = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4]})
 display(df)
 
 
-football = pd.read_csv('./data_sf.csv')
+football = pd.read_csv('./module_1/data_sf.csv')
 
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     display(football.describe())
