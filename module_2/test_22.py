@@ -23,8 +23,8 @@ small_df = df[df.columns[1:8]].head(25)
 # result = len(df['Position'].value_counts())
 # print(5, result)
 
-s = small_df['Nationality'].value_counts()
-s_df = s.reset_index()
-s_df.columns = ['Nationality','Players Count']
-display(s_df)
+# s = small_df['Nationality'].value_counts()
+# s_df = s.reset_index()
+# s_df.columns = ['Nationality','Players Count']
+# display(s_df)
 
