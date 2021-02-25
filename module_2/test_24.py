@@ -33,7 +33,7 @@ grouped_df = df.groupby(['Club']).sum()
 # print(df.groupby(['Nationality'])[['Club','Name']].nunique())
 
 # print(df.groupby(['Club'])['Name'].count())
-
+4
 # print(df.groupby(['Club'])['Dribbling'].median())
 
 # print(df.groupby(['Club'])['Strength'].max())
