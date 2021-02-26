@@ -16,5 +16,7 @@ print(ratings.merge(movies, on='movieId', how='inner'))
 print('outer')
 print(ratings.merge(movies, on='movieId', how='outer'))
 
-# movies.drop_duplicates(subset = 'movieId', keep = 'first', inplace = True)
-# print(ratings.merge(movies, how = 'left', on = 'movieId'))
+movies.drop_duplicates(subset = 'movieId', keep = 'first', inplace = True)
+print(ratings.merge(movies, how = 'left', on = 'movieId'))
+
+

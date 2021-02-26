@@ -18,5 +18,15 @@ purchase_df = pd.DataFrame(purchase_log)
 
 # Объедините получившиеся датафреймы по столбцу item_id с типом outer.
 
-df = items_df.merge(purchase_df, on='item_id', how='right')
-print(df)
+df = items_df.merge(purchase_df, on='item_id', how='inner')
+print(df['item_id'].count())
+
+# Посчитайте объем выручки для каждой модели, которую можно получить, 
+# распродав все остатки на складе. Модель с каким item_id имеет 
+# максимальное значение выручки после распродажи остатков? Ответ дайте в виде целого числа.
+
+df = items_df.merge(purchase_df, on='item_id', how='outer')
+df['sum'] = df['stock_count'] * df['price']
+print(df['sum'].sum())
+
+
