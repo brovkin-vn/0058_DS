@@ -114,9 +114,9 @@ from IPython.display import display
 
 # display(log)
 
-log = pd.read_csv("module_4/log.csv",header=None) 
+log = pd.read_csv('module_4/log.csv', header=None)
 log.columns = ['user_id','time','bet','win']
-# t = log.time[0]
-# t = t.replace('[','')
-log.time = log.time.apply(lambda s:str(s).replace('[',''))            
-display(log.time)
+# Напишите ваш код ниже
+log = log.time.apply(lambda s:str(s).replace('[',''))     
+            
+display(log)
