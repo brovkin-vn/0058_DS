@@ -61,16 +61,43 @@ import math
 # p_value = norm.cdf(Zst)
 # print(round(p_value, 3))
 
-df = pd.DataFrame({
-    'X': [6.1, 9.2, 11.5, 8.6, 12.1, 3.9, 8.4, 10.1, 9.4, 8.9]
-})
-std = df.X.std()
-n = df.X.count()
+# df = pd.DataFrame({
+#     'X': [6.1, 9.2, 11.5, 8.6, 12.1, 3.9, 8.4, 10.1, 9.4, 8.9]
+# })
+# std = df.X.std()
+# n = df.X.count()
+# k = n - 1
+# mean = df.X.mean()
+# X_ = 10
+# alpha = 0.05
+# Zst = (X_-mean) / (std/sqrt(n)) # когда sigma изветстна
+# print(round(Zst, 3))
+# p_value = 1-t.cdf(abs(Zst), k)
+# print(round(p_value, 3))
+
+# доверительный интервал
+# n = 185
+# k = n - 1
+# n_ = 77
+# p = 0.35
+# p_ = n_/n
+# print(p, p_)
+# Zst = (p_ - p) / sqrt(p * (1-p)/n)
+# # Zst = (0.42-0.35) / sqrt(0.35*(1-0.35)/185)
+# Zst = round(Zst, 3)
+# # Zst = 1.89
+# print(Zst)
+# p_value = (1-t.cdf(abs(Zst), k))
+# print(round(p_value, 3))
+
+n = 125
 k = n - 1
-mean = df.X.mean()
-X_ = 10
-alpha = 0.05
-Zst = (X_-mean) / (std/sqrt(n)) # когда sigma изветстна
-print(round(Zst, 3))
+n_ = 87
+p = 0.75
+p_ = n_/n
+print(p, p_)
+Zst = (p_ - p) / sqrt(p * (1-p)/n)
+# Zst = round(Zst, 3)
+print(Zst)
 p_value = 1-t.cdf(abs(Zst), k)
 print(round(p_value, 3))
