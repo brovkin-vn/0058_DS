@@ -16,3 +16,5 @@ print((A*0.87)[0])
 print(str(list((A*0.87)[0])).replace(' ' ,''))
 P=A*0.87 - B
 print(str(list(P[2])).replace(' ' ,''))
+print(str(list((A*0.87)[0])).replace(' ' ,''))
+

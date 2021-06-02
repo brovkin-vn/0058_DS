@@ -35,7 +35,8 @@ print(df.groupby('user_id').time.min())
 print(df.loc[df.bet > 0].groupby('user_id').time.min())
 df2  = pd.merge(df.groupby('user_id').time.min(), df.loc[df.bet > 0].groupby('user_id').time.min(), on='user_id')
 
-print(df2)
+# print(df2)
+
 # df2['time_x'] = pd.to_datetime(df2['time_x'])
 # df2['time_y'] = pd.to_datetime(df2['time_y'])
 
