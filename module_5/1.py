@@ -1,10 +1,9 @@
 import pandas as pd
 
-df = pd.read_csv('./module_5/train.csv')
+df = pd.read_csv('./module_5/,min_train.csv')
 # df.info()
 # print(df.count())
 
-from pandas import Series
 import pandas as pd
 import numpy as np
 
@@ -43,4 +42,4 @@ num_cols = ['age','decline_app_cnt','bki_request_cnt','income']
 
 X_cat = OneHotEncoder(sparse = False).fit_transform(df[cat_cols].values)
 
-print(X_cat.shape)
+# print(X_cat.shape)
