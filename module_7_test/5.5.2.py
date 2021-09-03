@@ -10,11 +10,10 @@ from sklearn.metrics import f1_score
 
 
 df = pd.read_csv('module_7_test/winequality-red.csv', sep=';')
-df.info()
+
 
 df.quality = (df.quality >= 6).astype(int)
 
-df.info()
 
 X = df.drop('quality', axis=1)
 y = df.quality
@@ -28,6 +27,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,
 # Решающий лес
 dtc = DecisionTreeClassifier(random_state=42,
                              max_depth=10).fit(X_train, y_train)
+dtc.fit(X_train, y_train)                             
 y_pred = dtc.predict(X_test)
 f1 = f1_score(y_pred, y_test)
 print(f1)
