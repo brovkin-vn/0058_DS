@@ -26,3 +26,4 @@ print(round(w/cnt, 2))
 
 
 
+ 
