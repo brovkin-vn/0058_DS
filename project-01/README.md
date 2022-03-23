@@ -8,8 +8,8 @@
 
 ### Использовались следующие модели
 
-* ResNet - https://arxiv.org/abs/1512.03385
-* MobileNetV3 - https://arxiv.org/abs/1905.02244 
+* [ResNet]( https://arxiv.org/abs/1512.03385)
+* [MobileNetV3](https://arxiv.org/abs/1905.02244)
 
 
 ### Состав проекта
