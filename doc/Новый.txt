@@ -1,0 +1,34 @@
+2bbc82c12bbc82c12bbc82c14e2bc687f122bbc2bbc82c14a3699ed37ba144c7f03d8a7
+https://api.vk.com/method/users.get?user_id=1&v=5.95&access_token=2bbc82c12bbc82c12bbc82c14e2bc687f122bbc2bbc82c14a3699ed37ba144c7f03d8a7
+https://api.vk.com/method/users.get?user_id=1&v=5.95&fields=sex,bdate&access_token=2bbc82c12bbc82c12bbc82c14e2bc687f122bbc2bbc82c14a3699ed37ba144c7f03d8a7
+
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.72.222:/box/bin/*.py /box/bin/
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.72.22 2:/box/media/*.jpg /box/media/
+nano /box/scripts/start
+
+cat /box/bin/trtr.py | grep ifconfig
+ifconfig | grep enp
+
+cat /box/bin/trtr.py | grep ifconfig
+sed -i 's/ifconfig eth0 /ifconfig enp3s0 /' /box/bin/trtr.py 
+sed -i 's/grep rootfs/grep sda2/' /box/bin/trtr.py 
+cat /box/bin/trtr.py | grep ifconfig
+
+
+cat /box/bin/boxmono.py | grep server9
+
+
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.160.22.204:/box/scripts/start /box/scripts/
+
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/bin/boxmono.py /box/bin/
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/bin/boxmono.py /box/bin/
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/bin/formex.py /box/bin/
+sudo reboot
+
+pip3 install --proxy=https://brovkin_vn:2063qwerty$\@sib-prx-004.sib.evraz.com:8080 --upgrade scipy --user
+pip3 install --proxy=https://uku\\brovkin_vn:2063qwerty$\@sib-prx-004.sib.evraz.com:8080 pygame
+pip3 install --proxy=https://uku\\brovkin_vn:2063qwerty$\@sib-prx-004.sib.evraz.com:8080 pynput
+pip3 install --proxy=https://uku\\brovkin_vn:2063qwerty$\@sib-prx-004.sib.evraz.com:8080 urllib3
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/bin/*.py /box/bin/
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/scripts/*.sh /box/scripts/
+rsync -a -e 'ssh -o StrictHostKeyChecking=no'  10.224.3.20:/box/scripts/start /box/scripts/
