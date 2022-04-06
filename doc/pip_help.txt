@@ -3,7 +3,7 @@ C:\Users\brovkin_vn\AppData\Local\Programs\Python\Python37\python.exe -m pip ins
 C:\Users\brovkin_vn\AppData\Local\Programs\Python\Python37\python.exe -m pip install --proxy=http://brovkin_vn:2063qwerty$@sib-prx-004.sib.evraz.com:8080 --upgrade opencv-python==4.1.2.30
 C:\Users\brovkin_vn\AppData\Local\Programs\Python\Python37\python.exe -m pip install --proxy=http://brovkin_vn:2063qwerty$@sib-prx-004.sib.evraz.com:8080 --upgrade opencv-contrib-python==4.1.2.30
 C:\Users\brovkin_vn\AppData\Local\Programs\Python\Python37\python.exe -m pip install --proxy=http://brovkin_vn:2063qwerty$@sib-prx-004.sib.evraz.com:8080 --upgrade matplotlib==3.2.2 --user
-
+C:\Users\brovkin_vn\AppData\Local\Programs\Python\Python37\python.exe -m pip install --proxy=http://brovkin_vn:2063qwerty$@sib-prx-004.sib.evraz.com:8080 --upgrade pytorch torchvision cudatoolkit=4.2 -c pytorch
 # show module path
 import albumentations
 print(albumentations.__file__)
