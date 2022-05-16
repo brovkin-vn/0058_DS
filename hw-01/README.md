@@ -22,6 +22,7 @@
 * https://www.markdownguide.org/
 * https://www.kaggle.com/code/vbookshelf/basics-of-yolo-v5-balloon-detection/notebook
 * https://blog.paperspace.com/train-yolov5-custom-data/
+* https://github.com/ultralytics/yolov5
 
 ### Выводы
 * 5 эпох достаточно, на 10 уже заметно переобучение
