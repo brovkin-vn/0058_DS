@@ -1,9 +1,9 @@
 # путь к данным
 # D:/aaa/Projects/0058_DS/hw-01/data/VOCdevkit/VOC2012/images/test 
 # cd D:\aaa\Projects\0058_DS\hw-01\yolov5\data\VOCdevkit\VOC2012\images\val
-train: ./data/VOCdevkit/VOC2012/images/train/ 
-val:   ./data/VOCdevkit/VOC2012/images/val/
-test:  ./data/VOCdevkit/VOC2012/images/test/
+train: /content/yolov5/data/VOCdevkit/VOC2012/images/train/ 
+val:   /content/yolov5/data/VOCdevkit/VOC2012/images/val/
+test:  /content/yolov5/data/VOCdevkit/VOC2012/images/test/
 
 # число классов
 nc: 20
