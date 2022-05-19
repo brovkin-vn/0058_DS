@@ -2,3 +2,5 @@ __pycache__/
 hw-01/data/
 hw-01/yolov5/
 *.py[cod]
+project-02/annotations/
+project-02/images/
